@@ -1,8 +1,15 @@
-# VSCode_Typing_Game
+# VSCode Typing Game
+
+In the world of programming languages, common words are falling apart. Users can choose between C, Java, and Python. Words are disassembled into the syntax of the chosen language. Entering words correctly in the terminal earns you gold, while failing to do so results in gold deduction and a decrease in health. The overall design of the game is reminiscent of Visual Studio Code.
+
+When the game starts, a health gauge is created. As time passes, health gradually decreases, and when it reaches zero, your earned gold is saved, and the game ends. Typing words of the same color consecutively builds a combo, allowing you to earn more points. The order in which users input words affects their score.
+
+There are a total of 4 items in the game. Clicking on them when they drop allows you to use the items. Acquiring "Coffee" and "Energy Drink" items activates the boost mode for 10 seconds. During boost mode, health does not decrease, and you can earn more gold. Acquiring the "Nap" item restores health, and for 5 seconds, words fall slowly. Acquiring the "Google" item clears all currently generated words. However, you can only earn 50% of the total gold you would have obtained by typing those words.
+
+On the left panel, clicking on the leftmost icons allows you to switch between panels. The Score panel displays your current gold, the number of words correctly typed in this game, and the number of items used. The Edit panel shows all currently loaded words and allows you to add new ones. In the Settings panel, you can select a level to adjust the word falling speed and change the language.
+
+To start the game, type "start" in the terminal. Typing "pause" in the terminal will pause the game, and you can resume it by typing "start" again. Type "stop" to end the game. Typing "exit" in the terminal will forcibly close the program.
+
+The top menu also allows you to select the language and level and control the start/pause/stop of the game.
+
 ![image](https://user-images.githubusercontent.com/97784561/209441559-a9bfe56c-f8ea-4a51-b23b-469dbebb4190.png)
-<p>프로그래밍 언어에서 자주 사용되는 단어들이 떨어진다. 사용자가 C 언어, Java, Python 중 원하는 언어를 선택할 수 있다. 사용자가 선택한 언어의 문법들로 단어가 떨어진다. 단어가 떨어지기 전에 터미널에 단어를 입력하면 골드를 획득하고, 터미널에 단어를 입력하지 못하였을 경우 골드는 차감되며, 체력이 감소한다. 게임의 전체적인 디자인은 Visual Studio Code 의 디자인과 흡사하다.&nbsp;</p>
-<p>게임이 시작되면 체력 게이지가 생성된다. 시간이 지날수록 체력이 점차 감소하며, 체력이 0 이 되면 획득한 골드가 저장되고, 게임은 종료된다. 터미널에 같은 색깔의 단어를 연속으로 입력하는 경우 콤보가 쌓이며, 콤보에 비례하여 더 많은 점수를 획득할 수 있다. 사용자가 단어를 어떤 순서로 입력하느냐에 따라 점수가 달라지게 되는 것이다.&nbsp;</p>
-<p>총 4 개의 아이템이 있다. 아이템이 떨어질 때 클릭하면 아이템을 사용할 수 있다. &quot;커피&quot; 아이템과 &quot;에너지드링크&quot; 아이템을 획득하게 되면 10 초 동안 부스트 모드가 활성화된다. 부스트 모드 중엔 체력이 감소하지 않고, 골드를 더 많이 획득할 수 있다. &quot;낮잠&quot; 아이템을 획득하면 체력이 충전되며, 5 초 동안 단어가 느리게 떨어진다. &quot;구글&quot; 아이템을 획득하면 현재 생성된 단어들이 모두 사라진다. 하지만 사라진 단어를 입력해서 얻는 총 골드의 50%만 획득할 수 있다.&nbsp;</p>
-<p>좌측의 패널은 가장 왼쪽의 아이콘들을 클릭하면 전환할 수 있다. Score 패널에서는 현재 가지고 있는 골드와 이번 게임에서 맞춘 단어의 수, 사용한 아이템의 수를 보여준다. Edit 패널에서는 현재 로드된 모든 단어를 보여주고, 단어를 추가할 수 있다. Setting 패널에서는 레벨을 선택하여 단어가 떨어지는 속도를 조절할 수 있고, 언어를 변경할 수 있다.&nbsp;</p>
-<p>터미널에 start 라고 입력하면 게임이 시작된다. 터미널에서 pause 라고 입력하면 게임이 일시정지되며, start 를 다시 입력하면 게임을 재개할 수 있다. stop 을 입력하여 게임을 종료시킬 수 있다. 터미널에서 exit 을 입력하면 프로그램을 강제로 종료시킬 수 있다.&nbsp;</p>
-<p>상단의 메뉴에서도 언어와 레벨을 선택할 수 있고, 게임을 시작/정지/종료 시킬 수 있다.&nbsp;</p>
