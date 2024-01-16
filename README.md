@@ -12,4 +12,4 @@ To start the game, type "start" in the terminal. Typing "pause" in the terminal 
 
 The top menu also allows you to select the language and level and control the start/pause/stop of the game.
 
-![image](https://user-images.githubusercontent.com/97784561/209441559-a9bfe56c-f8ea-4a51-b23b-469dbebb4190.png)
+![image](https://github.com/gyeongminn/vscode-typing-game/assets/97784561/46a007f8-e30d-4b75-bb40-761ef0767d35)
